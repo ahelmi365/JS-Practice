@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container" class="container">
+      <table class="calc-table">
+        <tbody>
+          <tr class="result">
+            <td id="result" colspan="4">This is the result area</td>
+          </tr>
+          <tr class="operators">
+            <td><button data-calc="calc" id="add">+</button></td>
+            <td><button data-calc="calc" id="subtract">-</button></td>
+            <td><button data-calc="calc" id="multiply">x</button></td>
+            <td><button data-calc="calc" id="devide">÷</button></td>
+          </tr>
+          <tr class="numbers-row-1">
+            <td><button data-calc="calc" class="numbers" id="7">7</button></td>
+            <td><button data-calc="calc" class="numbers" id="8">8</button></td>
+            <td><button data-calc="calc" class="numbers" id="9">9</button></td>
+            <td rowspan="4" class="equal">
+              <button id="equal">=</button>
+            </td>
+          </tr>
+          <tr class="numbers-row-2">
+            <td><button data-calc="calc" class="numbers" id="4">4</button></td>
+            <td><button data-calc="calc" class="numbers" id="5">5</button></td>
+            <td><button data-calc="calc" class="numbers" id="6">6</button></td>
+          </tr>
+          <tr class="numbers-row-3">
+            <td><button data-calc="calc" class="numbers" id="1">1</button></td>
+            <td><button data-calc="calc" class="numbers" id="2">2</button></td>
+            <td><button data-calc="calc" class="numbers" id="3">3</button></td>
+          </tr>
+          <tr class="numbers-row-4">
+            <td><button data-calc="calc" class="numbers" id="0">0</button></td>
+            <td><button data-calc="calc" id="floatPoint">.</button></td>
+            <td><button id="clear">C</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
