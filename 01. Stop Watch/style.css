@@ -1,0 +1,32 @@
+body {
+    font-size: 24px;
+    background-color: black;
+}
+
+.container {
+    width: 80vw;
+    margin: 50px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+}
+
+
+div.buttons>button {
+    font-size: 20px;
+    margin: 15px;
+}
+
+div.buttons {
+    padding: 15px;
+}
+
+button[type="button"] {
+    width: 80px;
+    height: 35px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid black;
+}

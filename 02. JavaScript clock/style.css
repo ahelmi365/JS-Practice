@@ -1,0 +1,28 @@
+body {
+    font-size: 24px;
+    background-color: black;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 50px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    min-width: 223px;
+}
+
+div.time {
+    margin: 20px auto 20px auto;
+    color: blue;
+    background-color: khaki;
+    border-radius: 5px;
+    padding: 10px;
+    min-width: 163px;
+    max-width: 50%;
+}
+
+#ampm {
+    color: red;
+
+}
